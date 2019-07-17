@@ -42,19 +42,127 @@ header {
 
 }
 
-aside{
-  float: left;
-}
 
 .page_body{
-  float: right;
+    float: left;
+    display: inline;
 }
 
-.footer {
-    background-color: ;
-    position: absolute;
-    left: 0;
-    bottom: 0;
+.wrapper {
+    max-width: 980px;
+    margin: auto;
+    background-color: bisque;
     width: 100%;
-    height: 80px;
+    height: 100%;
+    color: #767676;
+    font-weight: bold;
+}
+
+.block1 {
+    float: left;
+    background-color: greenyellow;
+}
+
+.navigation-pagination {
+    clear: both;
+}
+
+.my_footer {
+    background-color: #777777;
+    clear: both;
+    width: 1400px;
+    margin: auto;
+    height: 220px;
+    color: #ffffff;
+}
+
+.footer_left_column {
+    float: left;
+    width: 33%;
+}
+
+.footer_center_column {
+    float: left;
+    width: 33%;
+}
+
+.footer_right_column {
+    float: left;
+    width: 33%;
+}
+
+
+.item {
+    background-color: #555555;
+    border-color: #222222;
+    border-style: solid;
+    border-width: 5px;
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.myimg {
+    background-color: #b3d4fc;
+    width: auto;
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+
+}
+
+.laptop {
+    background-color: deeppink;
+    width: auto;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.price {
+    background-color: mediumspringgreen;
+    font-size: 50px;
+    margin-left: 10px;
+
+
+}
+
+.basket {
+    background-color: plum;
+    font-size: 30px;
+    margin-right: 10px;
+
+
+
+}
+
+.flex_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.wrapper_kitty {
+    width: 1400px;
+    margin: auto;
+    display: inline-grid;
+    grid-template-rows: 300px 300px;
+    background-color: darkturquoise;
+    grid-template-columns: 300px 300px 300px;
+    grid-gap: 2vw;
+}
+
+.kitty1 {
+    background-color: powderblue;
+}
+
+.kitty {
+    background-color: hotpink;
 }
