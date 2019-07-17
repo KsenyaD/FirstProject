@@ -59,8 +59,10 @@ header {
 }
 
 .block1 {
-    float: left;
     background-color: greenyellow;
+    display: inline;
+    width: 100px;
+    height: 100px;
 }
 
 .navigation-pagination {
@@ -150,19 +152,11 @@ header {
 
 
 .wrapper_kitty {
-    width: 1400px;
     margin: auto;
     display: inline-grid;
-    grid-template-rows: 300px 300px;
+    grid-template-rows: 450px 450px 450px;
     background-color: darkturquoise;
-    grid-template-columns: 300px 300px 300px;
+    grid-template-columns: 300px 300px;
     grid-gap: 2vw;
 }
 
-.kitty1 {
-    background-color: powderblue;
-}
-
-.kitty {
-    background-color: hotpink;
-}
