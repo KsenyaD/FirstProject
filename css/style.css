@@ -43,7 +43,7 @@ header {
 }
 
 
-.page_body{
+.right_product_list {
     float: left;
     display: inline;
 }
@@ -58,14 +58,14 @@ header {
     font-weight: bold;
 }
 
-.block1 {
+.left_panel {
     background-color: greenyellow;
     display: inline;
     width: 100px;
     height: 100px;
 }
 
-.navigation-pagination {
+.page_numbers {
     clear: both;
 }
 
@@ -151,10 +151,10 @@ header {
 }
 
 
-.wrapper_kitty {
+.wrapper_product_list {
     margin: auto;
     display: inline-grid;
-    grid-template-rows: 450px 450px 450px;
+    grid-template-rows: 450px 450px;
     background-color: darkturquoise;
     grid-template-columns: 300px 300px;
     grid-gap: 2vw;
