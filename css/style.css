@@ -1,26 +1,36 @@
 header {
-    height: 220px;
+    height: 230px;
     width: 1400px;
     margin: auto;
     background-color: #dcdcdc;
-    position: relative;
+
 }
 
-.logo-margin {
-    margin-left: 210px;
+.logo_header {
+    background-color: lightgreen;
+    display: inline-block;
     margin-top: 65px;
-    position: absolute;
+
 }
 
 .feedback {
     font-size: 40px;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'OpenSans', sans-serif;
     color: rgb(118, 118, 118);
     text-align: right;
-    right: 200px;
-    line-height: 1.15;
-    margin-right: 210px;
-    padding-top: 24px;
+    background-color: yellow;
+    display: inline-block;
+
+
+}
+
+.wrapper_content_header {
+    width: 980px;
+    background-color: rosybrown;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .lineheader {
@@ -161,3 +171,4 @@ header {
 .path {
     background-color: yellow;
 }
+
