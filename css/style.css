@@ -101,13 +101,32 @@ header {
     height: 30px;
     display: flex;
     align-items: center;
-    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 0.025em;
+
 
 }
+
+.path a{
+    font-family: 'PT Sans', sans-serif;
+}
+
 
 .path_selected {
     text-decoration: underline;
 }
+
+
+#path_separator_one {
+    margin-left: 4px;
+    margin-right: 7px;
+}
+
+#path_separator_two {
+    margin-right: 11px;
+    margin-left: 7px;
+
+}
+
 
 .path_selected :after{
     content: " / ";
